@@ -3,74 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Importa Fácil Chile</title>
+  <title>ImportaBarato.cl</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
   <!-- HERO -->
-  <section class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-16">
+  <section class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20">
     <div class="max-w-5xl mx-auto text-center px-4">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4">Compra directo desde China sin complicarte</h1>
-      <p class="text-lg mb-8">Pega un link de 1688 y te damos el precio final en Chile</p>
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Deja de pagar de más en Chile 🚫</h1>
+      <p class="text-lg mb-6">Compra directo desde China a precio REAL. Sin vueltas, sin páginas raras, sin que te caguen con el precio.</p>
+      <p class="mb-8 font-semibold">Pega un link y te decimos cuánto te cuesta puesto en tu casa 👇</p>
       
       <div class="bg-white rounded-2xl shadow-lg p-4 flex flex-col md:flex-row gap-2">
-        <input type="text" placeholder="Pega aquí el link del producto..." class="flex-1 p-3 rounded-xl border outline-none text-black">
-        <button class="bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-700">Cotizar</button>
+        <input type="text" placeholder="Pega aquí el link del producto de 1688..." class="flex-1 p-3 rounded-xl border outline-none text-black">
+        <button class="bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-700">Cotizar ahora</button>
       </div>
+
+      <p class="mt-4 text-sm opacity-80">🔥 Precio final en pesos chilenos | 📦 Envíos a todo Chile</p>
     </div>
+  </section>
+
+  <!-- PRUEBA SOCIAL -->
+  <section class="py-12 bg-white text-center">
+    <p class="text-lg font-semibold">+500 pedidos entregados en Chile 🚚</p>
+    <p class="text-gray-500">Personas comunes comprando más barato que en cualquier tienda</p>
   </section>
 
   <!-- COMO FUNCIONA -->
   <section class="py-16">
     <div class="max-w-5xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-10">¿Cómo funciona?</h2>
+      <h2 class="text-3xl font-bold mb-10">Así de fácil</h2>
       <div class="grid md:grid-cols-3 gap-8">
-        <div>
+        <div class="bg-white p-6 rounded-2xl shadow">
           <div class="text-4xl mb-3">🔗</div>
-          <h3 class="font-semibold text-lg">1. Pega el link</h3>
-          <p class="text-gray-500">Desde 1688 o cualquier tienda china</p>
+          <h3 class="font-semibold text-lg">Pega el link</h3>
+          <p class="text-gray-500">Desde 1688 (o donde quieras)</p>
         </div>
-        <div>
+        <div class="bg-white p-6 rounded-2xl shadow">
           <div class="text-4xl mb-3">💳</div>
-          <h3 class="font-semibold text-lg">2. Paga el total</h3>
-          <p class="text-gray-500">Sin costos ocultos</p>
+          <h3 class="font-semibold text-lg">Paga el total</h3>
+          <p class="text-gray-500">Sin costos escondidos</p>
         </div>
-        <div>
+        <div class="bg-white p-6 rounded-2xl shadow">
           <div class="text-4xl mb-3">📦</div>
-          <h3 class="font-semibold text-lg">3. Recibe en tu casa</h3>
-          <p class="text-gray-500">Nosotros hacemos todo</p>
+          <h3 class="font-semibold text-lg">Recibe en tu casa</h3>
+          <p class="text-gray-500">Nosotros hacemos toda la pega</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- COTIZACION MOCK -->
+  <!-- COTIZACION -->
   <section class="bg-white py-16">
     <div class="max-w-4xl mx-auto px-4">
-      <h2 class="text-2xl font-bold mb-6">Ejemplo de cotización</h2>
+      <h2 class="text-2xl font-bold mb-2">Mira cómo vas a pagar realmente 👇</h2>
+      <p class="text-gray-500 mb-6">Sin sorpresas, sin letras chicas</p>
+
       <div class="bg-gray-100 p-6 rounded-2xl shadow">
         <div class="flex gap-4">
           <div class="w-24 h-24 bg-gray-300 rounded-xl"></div>
           <div>
             <h3 class="font-semibold">Producto ejemplo</h3>
-            <p class="text-sm text-gray-500">Precio original: ¥120</p>
+            <p class="text-sm text-gray-500">Precio en China: ¥120</p>
           </div>
         </div>
 
         <div class="mt-6 space-y-2">
           <div class="flex justify-between"><span>Producto</span><span>$12.000</span></div>
-          <div class="flex justify-between"><span>Envío China</span><span>$3.000</span></div>
-          <div class="flex justify-between"><span>Envío internacional</span><span>$15.000</span></div>
+          <div class="flex justify-between"><span>Envío dentro de China</span><span>$3.000</span></div>
+          <div class="flex justify-between"><span>Envío a Chile</span><span>$15.000</span></div>
           <div class="flex justify-between"><span>Servicio</span><span>$5.000</span></div>
         </div>
 
-        <div class="border-t mt-4 pt-4 flex justify-between text-xl font-bold">
-          <span>Total</span>
+        <div class="border-t mt-4 pt-4 flex justify-between text-xl font-bold text-green-600">
+          <span>Total real</span>
           <span>$35.000 CLP</span>
         </div>
 
-        <button class="w-full mt-6 bg-green-500 text-white py-3 rounded-xl font-semibold hover:bg-green-600">Comprar ahora</button>
+        <button class="w-full mt-6 bg-green-500 text-white py-3 rounded-xl font-semibold hover:bg-green-600">Lo quiero comprar</button>
+        <p class="text-xs text-gray-500 mt-3">⏱ Llega entre 10 a 20 días aprox.</p>
       </div>
     </div>
   </section>
@@ -78,7 +90,8 @@
   <!-- TRACKING -->
   <section class="py-16">
     <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-2xl font-bold mb-8">Seguimiento en tiempo real</h2>
+      <h2 class="text-2xl font-bold mb-4">No te dejamos a ciegas 👀</h2>
+      <p class="text-gray-500 mb-8">Vas viendo tu pedido en todo momento</p>
       <div class="flex justify-between text-sm">
         <div>🟡 Pedido</div>
         <div>🟠 Comprado</div>
@@ -92,9 +105,9 @@
 
   <!-- CTA FINAL -->
   <section class="bg-blue-600 text-white py-16 text-center">
-    <h2 class="text-3xl font-bold mb-4">Empieza ahora</h2>
-    <p class="mb-6">Cotiza tu primer producto en segundos</p>
-    <button class="bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold">Cotizar producto</button>
+    <h2 class="text-3xl font-bold mb-4">Empieza ahora y paga menos desde hoy 💸</h2>
+    <p class="mb-6">Miles de productos mucho más baratos que en Chile</p>
+    <button class="bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold">Cotizar mi producto</button>
   </section>
 
 </body>
